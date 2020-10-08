@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {color:fuchsia;
+h1 {
+    color:fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightseagreen;
 }
 
+h2 {
+    color: lightsalmon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
 .wrapper {
     height: 1000px;
     width: 600px;
@@ -24,6 +32,7 @@ h1 {color:fuchsia;
     display:flex;
     flex-direction: column;
     background: burlywood;
+    border: 15px;
     
 
 }
@@ -33,19 +42,21 @@ h1 {color:fuchsia;
     align-items: center;
     margin: 0 auto;
     flex-direction:row;
-    background: firebrick;
+    background: rgb(40, 108, 148);
     width: 350px;
-    height: 550px;
+    height: 500px;
     padding: 10px 20px 10px 20px;
+    border: 10px;
 }
 
 .box {
     display: flex;
     flex-direction: row;
     align-self: center;
-    width: 40px;
-    height: 40px;
+    width: 10vh;
+    height: 10vh;
     background: pink;
     margin: 10px;
-    
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
