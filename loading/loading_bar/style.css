@@ -1,0 +1,143 @@
+h1 {
+    color: olive;
+}
+div {
+    margin: 10px;
+
+}
+#row {
+    display: flex;
+}
+
+#box1 {
+background-color: darksalmon;
+width: 75px;
+height: 75px;
+animation-name: box1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+#box2 {
+    background-color: bisque;
+    width: 75px;
+    height: 75px;
+    animation-name: box2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+   /* animation-direction: reverse; */
+}
+
+#box3 {
+    background-color: cadetblue;
+    width: 75px;
+    height: 75px;
+    animation-name: box3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+#box4 {
+    background-color: rgb(167, 140, 202); 
+    width: 75px;
+    height: 75px;
+    animation-name: box4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  /*  animation-direction: reverse; */
+}
+#box5 {
+    background-color: plum;
+    width: 75px;
+    height: 75px;
+    animation-name: box5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes box1 {
+    0% {
+        background-color: darksalmon;
+    }
+    25% {
+        background-color: bisque;
+    }
+      50% {
+        background-color: rgb(100, 128, 151);
+      }
+      75% {
+        background-color: rgb(167, 140, 202);
+      }
+      100% {
+        background-color: plum;
+      }
+}
+
+@keyframes box2 {
+    0% {
+        background-color: bisque;
+    }
+    25% {
+        background-color: rgb(100, 128, 151);
+    }
+      50% {
+        background-color: rgb(167, 140, 202);
+      }
+      75% {
+        background-color: plum;
+      }
+      100% {
+        background-color: darksalmon;
+      }
+}
+
+@keyframes box3 {
+    0% {
+        background-color: rgb(100, 128, 151);
+    }
+    25% {
+        background-color: rgb(167, 140, 202)
+    }
+      50% {
+        background-color: plum;
+      }
+      75% {
+        background-color: darksalmon;
+      }
+      100% {
+        background-color: bisque;
+      }
+}
+  @keyframes box4 {
+    0% {
+        background-color: rgb(167, 140, 202)
+    }
+    25% {
+        background-color: plum;
+    }
+      50% {
+        background-color: darksalmon;
+      }
+      75%{
+        background-color: bisque;
+      }
+      100% {
+        background-color: rgb(100, 128, 151);
+      }
+}
+@keyframes box5 {
+    0% {
+        background-color: plum;
+    }
+    25% {
+        background-color: darksalmon;
+    }
+      50% {
+        background-color: bisque;
+      }
+      75%{
+        background-color: rgb(100, 128, 151);
+      }
+      100% {
+        background-color: rgb(167, 140, 202);
+      }
+}

@@ -15,13 +15,14 @@ h2 {
 
 }
 .wrapper {
-    height: 1000px;
-    width: 600px;
+    height: 80vh;
+    width: 80vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 15px;
+    align-items: center;  
     margin: 30px;
+    background: olivedrab;
+    border: 2px solid blue;
 
     
 }
@@ -33,8 +34,6 @@ h2 {
     flex-direction: column;
     background: burlywood;
     border-radius: 15px;
-    
-
 }
 
 .row {
@@ -54,7 +53,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-self: center;
-    width: 10vh;
+    width: 10vw;
     height: 10vh;
     background: pink;
     margin: 10px;
