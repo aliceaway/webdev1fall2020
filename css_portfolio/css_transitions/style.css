@@ -1,0 +1,16 @@
+h1 {
+    color: salmon;
+}
+#box1 {
+    height: 50px;
+    width: 50px;
+    background-color: slateblue;
+
+
+}
+#box1:hover{
+    background-color: salmon;
+}
+h1:hover{
+   color: slateblue;
+}

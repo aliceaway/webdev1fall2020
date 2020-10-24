@@ -1,0 +1,50 @@
+
+h1 {
+    color: plum;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__item {
+   
+   background-size: cover;
+   width: 20vmin;
+   height: 20vmin;
+   margin: 2vmin;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.grapefruit { background-image: url("images/grapefruit.jpeg"); }
+.mamashouse {background-image: url("images/mamashouse.jpeg");}
+.cocktail1 { background-image: url("images/cocktail1.jpeg");}
+
+.column {
+    display: flex;
+}
+
+img {
+    width: 20%;
+    margin: 20px;
+}
+
+body {
+    background-color: powderblue;
+    padding: 20px;
+    
+}
+/* mobile  */
+@media only screen and (max-width: 600px) {
+    .column {
+        display: inline;
+    }
+    img {
+        margin: 2px;
+    }
+}
+
