@@ -1,3 +1,13 @@
 h1 {
     color: seagreen;
 }
+#box1 {
+    height: 60vmin;
+    width: 60vmin;
+    background-color: rgba(108, 197, 145, 0.842);
+}
+#box2 {
+    height: 40vmax;
+    width: 40vmax;
+    background-color: darkcyan;
+}

@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(231, 152, 172);
+    background-color: darkgoldenrod;
+}
+/* unvisited link */
+a:link {
+    color: #e46666;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #39e0f7ab;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #8fb5c4;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #8282e9;
+  }

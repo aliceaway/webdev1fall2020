@@ -23,6 +23,15 @@ h1 {
 .grapefruit { background-image: url("images/grapefruit.jpeg"); }
 .mamashouse {background-image: url("images/mamashouse.jpeg");}
 .cocktail1 { background-image: url("images/cocktail1.jpeg");}
+.cocktail2 { background-image: url("images/cocktail2.jpeg"); }
+.sunnydrink { background-image: url("images/sunnydrink.jpeg");}
+.zucchinisoup { background-image: url("images/zucchinisoup.jpeg");}
+.tallulah {background-image: url("images/tallulah.jpeg");}
+.squash {background-image: url("images/squash.jpeg");}
+.matcha {background-image: url("images/matcha.jpeg");}
+.doubledrink {background-image: url("images/doubledrink.jpeg");}
+.sailing1 {background-image: url("images/sailing1.jpeg");}
+.bruscetta {background-image: url("images/bruscetta.jpeg");}
 
 .column {
     display: flex;

@@ -1,0 +1,4 @@
+h1::before {
+    content: url(../images/ramen_icon.png);
+    
+}

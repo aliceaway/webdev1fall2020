@@ -1,3 +1,14 @@
 h1 {
     color: blue;
 }
+
+@media only screen and (min-width: 800px) {
+    div {
+        display: flex;
+        width: 100%;
+
+    }
+    div img{
+        width: 25%;
+    }
+}
