@@ -1,0 +1,4 @@
+p {
+    color: darkcyan;
+font-size: clamp(5px, 12vmin, 40px)
+}
