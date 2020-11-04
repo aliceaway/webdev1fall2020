@@ -1,0 +1,48 @@
+.red-text {
+    color: purple;
+  }
+#second-title {
+  color:purple;
+}
+main {
+  font-family:monospace;
+}
+  h2 {
+  font-family: Lobster;
+  }
+h7 {
+  font-family: Lobster;
+}
+
+.smaller-image {
+  width: 300px;
+}
+
+  .thick-green-border {
+    border-color: grey;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 10%;
+  }
+
+.silver-background {
+    background-color: blue;
+  }
+
+.green-box {
+  background-color: pink;
+  padding: 10px;
+  margin: 50px;
+}
+.box {
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+    text-align: center;
+  }
+
+.yellow-box{
+  background-color: yellow;
+  padding: 20px;
+  margin: 30px;
+}

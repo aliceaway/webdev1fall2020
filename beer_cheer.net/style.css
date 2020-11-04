@@ -1,0 +1,57 @@
+h1 {
+    color: salmon;
+    font-family: lobster;
+    text-align: center;
+
+}
+
+img {
+    width: 20%;
+    position: relative;
+    bottom: 50%;
+    top: 50%;
+  
+
+
+}
+body { background-color: lavenderblush;
+
+}
+.box {
+    position: relative;
+    top: 5%;
+
+}
+h2 {
+    color: darkturquoise;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    text-align: center;
+    color: magenta;
+    font-family: fantasy;
+    padding: 10px;
+    background-color: greenyellow;
+
+}
+   
+
+  .box1 {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+.box2 {
+    position:absolute;
+    align-items: center;
+}
