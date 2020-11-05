@@ -1,0 +1,52 @@
+body {
+    background-image: url(../css_portfolio/images/sailing2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+   font-family: 'Rubik', sans-serif;
+   background-color: rgb(188, 233, 198);
+   padding: 15px;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+}
+ 
+a {
+    display: block;
+    padding: 20px;
+    width: 25vw;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.about {
+    background-color: rgba(221, 220, 159, 0.774);
+    border-radius: 70%;
+    width: 15vw;
+    
+}
+
+.box1{
+    background-color: rosybrown;
+}
+
+.box2 {
+    background-color: rgb(165, 149, 104);
+}
+
+.box3 {
+    background-color: rgb(106, 151, 106);
+}
+
+.box4 {
+    background-color: steelblue;
+}
+
+.box5 {
+    background-color: thistle;
+}
+
+.box6 {
+    background-color: teal;
+}
