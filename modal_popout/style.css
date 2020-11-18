@@ -1,0 +1,15 @@
+.popup-overlay {
+    visibility:active;
+    }
+    
+    .popup-content {
+    visibility:active;
+    }
+
+    h2 {
+        color: rgb(168, 101, 168);
+    }
+    p {
+        color: rgba(45, 65, 16, 0.616);
+    }
+    
