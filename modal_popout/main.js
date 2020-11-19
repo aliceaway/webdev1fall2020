@@ -5,3 +5,9 @@ $(".open").on("click", function() {
   $(".close, .popup-overlay").on("click", function() {
     $(".popup-overlay, .popup-content").removeClass("active");
   });
+
+  $(".modal_close").click(function()
+  {
+      $(".modal").toggle();
+  }
+  )
