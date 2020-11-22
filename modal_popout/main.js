@@ -2,12 +2,19 @@ $(".open").on("click", function() {
     $(".popup-overlay, .popup-content").addClass("active");
   });
   
-  $(".close, .popup-overlay").on("click", function() {
-    $(".popup-overlay, .popup-content").removeClass("active");
-  });
+
+
 
   $(".modal_close").click(function()
   {
       $(".modal").toggle();
   }
   )
+
+  $('.modal_message').click(function(){
+    $('#modal').show()
+    $('#box-hide').hide();
+    $('#box-toggle').toggle();
+  })
+
+
